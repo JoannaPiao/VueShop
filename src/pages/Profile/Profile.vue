@@ -1,7 +1,7 @@
 <template>
   <section class="profile">
    <Header title="我的"></Header>
-    <section class="profile-number">
+    <section class="profile-number" @click="$router.push('/login')">
       <a href="javascript:" class="profile-link">
         <div class="profile_image">
           <i class="iconfont icon-person"></i>
@@ -19,7 +19,7 @@
               <i class="iconfont icon-jiantou1"></i>
             </span>
       </a>
-    </section>
+    </section >
     <section class="profile_info_data border-1px">
       <ul class="info_data_list">
         <a href="javascript:" class="info_data_link">
